@@ -13,6 +13,7 @@
     "skills/"
   ],
   "scripts": {
+    "global": "npm install -g .",
     "postinstall": "node scripts/postinstall.js",
     "preuninstall": "node scripts/preuninstall.js"
   },
